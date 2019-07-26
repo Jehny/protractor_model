@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="4" tests="4" time="44.974">
+ <testsuite name="Login Page Tests." timestamp="2019-07-26T14:39:49" hostname="localhost" time="44.974" errors="0" tests="4" skipped="1" disabled="0" failures="4">
+  <testcase classname="Login Page Tests." name="Validates login page content." time="40.853">
+   <failure type="exception" message="Failed: Wait timed out after 40003ms"><![CDATA[TimeoutError: Wait timed out after 40003ms
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2201:17
+    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)
+    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: <anonymous wait>
+    at scheduleWait (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2188:20)
+    at ControlFlow.wait (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2517:12)
+    at thenableWebDriverProxy.wait (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:934:29)
+    at run (/usr/local/lib/node_modules/protractor/built/browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as wait] (/usr/local/lib/node_modules/protractor/built/browser.js:67:16)
+    at LoginPage.getPageHeader (/Users/ifactory/Documents/Porto_Seguro/portoseg-app-col-tests/pages/loginpage.js:68:13)
+    at UserContext.<anonymous> (/Users/ifactory/Documents/Porto_Seguro/portoseg-app-col-tests/specs/spec_login.js:17:25)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)
+    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)
+From: Task: Run it("Validates login page content.") in control flow
+    at UserContext.<anonymous> (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:94:19)
+    at attempt (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+    at runNext (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13
+    at /usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9
+    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:64:48
+    at ControlFlow.emit (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/events.js:62:21)
+    at ControlFlow.shutdown_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2674:10)
+    at shutdownTask_.MicroTask (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (/Users/ifactory/Documents/Porto_Seguro/portoseg-app-col-tests/specs/spec_login.js:16:2)
+    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+    at describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+    at Object.<anonymous> (/Users/ifactory/Documents/Porto_Seguro/portoseg-app-col-tests/specs/spec_login.js:9:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Login Page Tests." name="Validates invalid CPFs" time="4.075">
+   <failure type="exception" message="Failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64)"><![CDATA[NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64)
+    at Object.checkLegacyResponse (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/error.js:546:15)
+    at parseHttpResponse (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/http.js:509:13)
+    at doSend.then.response (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.findElements(By(xpath, /html/body/ion-app/ng-component/ion-nav/page-login/ion-content/div[2]/div/form/ion-list/cpf-cnpj-input/ion-item/div[1]/div/ion-input/input))
+    at thenableWebDriverProxy.schedule (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:807:17)
+    at thenableWebDriverProxy.findElements (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:1048:19)
+    at ptor.waitForAngular.then (/usr/local/lib/node_modules/protractor/built/element.js:159:44)
+    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)
+    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7
+    at <anonymous>
+From: Task: <anonymous>
+    at Timeout.pollCondition [as _onTimeout] (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2195:19)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+From: Task: <anonymous wait>
+    at scheduleWait (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2188:20)
+    at ControlFlow.wait (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2517:12)
+    at thenableWebDriverProxy.wait (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:934:29)
+    at run (/usr/local/lib/node_modules/protractor/built/browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as wait] (/usr/local/lib/node_modules/protractor/built/browser.js:67:16)
+    at LoginPage.enterCpf (/Users/ifactory/Documents/Porto_Seguro/portoseg-app-col-tests/pages/loginpage.js:28:13)
+    at UserContext.<anonymous> (/Users/ifactory/Documents/Porto_Seguro/portoseg-app-col-tests/specs/spec_login.js:23:13)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)
+    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)
+From: Task: Run it("Validates invalid CPFs") in control flow
+    at UserContext.<anonymous> (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:94:19)
+    at attempt (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+    at runNext (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13
+    at /usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9
+    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:64:48
+    at ControlFlow.emit (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/events.js:62:21)
+    at ControlFlow.shutdown_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2674:10)
+    at shutdownTask_.MicroTask (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (/Users/ifactory/Documents/Porto_Seguro/portoseg-app-col-tests/specs/spec_login.js:21:2)
+    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+    at describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+    at Object.<anonymous> (/Users/ifactory/Documents/Porto_Seguro/portoseg-app-col-tests/specs/spec_login.js:9:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Login Page Tests." name="Validates unauthorized access attempt" time="0.002">
+   <skipped message="Temporarily disabled with xit" />
+  </testcase>
+  <testcase classname="Login Page Tests." name="Validates login success" time="0.041">
+   <failure type="exception" message="NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64)"><![CDATA[NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64)
+    at Object.checkLegacyResponse (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/error.js:546:15)
+    at parseHttpResponse (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/http.js:509:13)
+    at doSend.then.response (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.takeScreenshot()
+    at thenableWebDriverProxy.schedule (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:807:17)
+    at thenableWebDriverProxy.takeScreenshot (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:1085:17)
+    at run (/usr/local/lib/node_modules/protractor/built/browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as takeScreenshot] (/usr/local/lib/node_modules/protractor/built/browser.js:67:16)
+    at /Users/ifactory/Documents/Porto_Seguro/portoseg-app-col-tests/config/conf.js:93:21
+    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)
+    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7]]>
+   </failure>
+   <failure type="exception" message="Failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64)"><![CDATA[NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64)
+    at Object.checkLegacyResponse (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/error.js:546:15)
+    at parseHttpResponse (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/http.js:509:13)
+    at doSend.then.response (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.navigate().to(http://localhost:8100/#/login)
+    at thenableWebDriverProxy.schedule (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:807:17)
+    at Navigation.to (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:1133:25)
+    at thenableWebDriverProxy.get (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:988:28)
+    at ProtractorBrowser.get (/usr/local/lib/node_modules/protractor/built/browser.js:655:32)
+    at LoginPage.goToPage (/Users/ifactory/Documents/Porto_Seguro/portoseg-app-col-tests/pages/loginpage.js:24:13)
+    at UserContext.<anonymous> (/Users/ifactory/Documents/Porto_Seguro/portoseg-app-col-tests/specs/spec_login.js:40:13)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)
+    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)
+    at schedulerExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:95:18)
+From: Task: Run it("Validates login success") in control flow
+    at UserContext.<anonymous> (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:94:19)
+    at attempt (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+    at runNext (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13
+    at /usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9
+    at handleError (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4244:11)
+    at process.onerror (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:2371:17)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (/Users/ifactory/Documents/Porto_Seguro/portoseg-app-col-tests/specs/spec_login.js:39:2)
+    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+    at describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+    at Object.<anonymous> (/Users/ifactory/Documents/Porto_Seguro/portoseg-app-col-tests/specs/spec_login.js:9:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>

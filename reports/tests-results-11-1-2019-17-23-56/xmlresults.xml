@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="16" time="159.638">
+ <testsuite name="Ajuda Page Tests." timestamp="2019-01-11T17:23:56" hostname="localhost" time="11.121" errors="0" tests="5" skipped="1" disabled="0" failures="0">
+  <testcase classname="Ajuda Page Tests." name="Click Botão Ajuda" time="2.544" />
+  <testcase classname="Ajuda Page Tests." name="Click Botão email" time="1.603" />
+  <testcase classname="Ajuda Page Tests." name="Click Site Azul Seguros" time="5.362" />
+  <testcase classname="Ajuda Page Tests." name="Click Fale Conosco" time="1.608" />
+  <testcase classname="Ajuda Page Tests." name="Click Botão Voltar" time="0.002">
+   <skipped message="Temporarily disabled with xit" />
+  </testcase>
+ </testsuite>
+ <testsuite name="Corretor Page Tests." timestamp="2019-01-11T17:24:07" hostname="localhost" time="4.511" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Corretor Page Tests." name="Click Link Novo Corretor" time="4.508" />
+ </testsuite>
+ <testsuite name="Esqueci a Senha Page Tests." timestamp="2019-01-11T17:24:12" hostname="localhost" time="6.125" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Esqueci a Senha Page Tests." name="Click esqueci a senha" time="6.123" />
+ </testsuite>
+ <testsuite name="Login Page Tests." timestamp="2019-01-11T17:24:18" hostname="localhost" time="85.297" errors="0" tests="4" skipped="1" disabled="0" failures="0">
+  <testcase classname="Login Page Tests." name="Validates login page content." time="2.161" />
+  <testcase classname="Login Page Tests." name="Validates invalid CPFs" time="2.61" />
+  <testcase classname="Login Page Tests." name="Validates unauthorized access attempt" time="0">
+   <skipped message="Temporarily disabled with xit" />
+  </testcase>
+  <testcase classname="Login Page Tests." name="Validates login success" time="80.523" />
+ </testsuite>
+ <testsuite name="Home Page Tests" timestamp="2019-01-11T17:25:43" hostname="localhost" time="52.584" errors="0" tests="5" skipped="1" disabled="0" failures="0">
+  <testcase classname="Home Page Tests" name="Validates home page content" time="1.403" />
+  <testcase classname="Home Page Tests" name="Access Propostas pendentes" time="19.406" />
+  <testcase classname="Home Page Tests" name="Access Apólices vencidas" time="14.704" />
+  <testcase classname="Home Page Tests" name="Do a search" time="0.001">
+   <skipped message="Temporarily disabled with xit" />
+  </testcase>
+  <testcase classname="Home Page Tests" name="Access Parcelas vencidas" time="17.069" />
+ </testsuite>
+</testsuites>
